@@ -47,7 +47,7 @@ class GridActionItem extends StatelessWidget {
                       fontSize: dimns.maxWidth * .15)),
             ),
           ],
-          if (item.subtitle != null && dimns.maxWidth > 120) ...[
+          if (item.subtitle.isNotEmpty && dimns.maxWidth > 120) ...[
             AutoSizeText(
               item.subtitle,
               textScaleFactor: 1.0,
