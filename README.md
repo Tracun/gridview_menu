@@ -6,7 +6,7 @@ package for creating a menu in grid view.
 
 GridView             |  ListView
 :-------------------------:|:-------------------------:
-![GridView](./images/Grid1.png)  |  ![ListView](./images/listGrid.png)
+![GridView](https://github.com/Tracun/gridview_menu/blob/main/images/Grid1.png?raw=true)  |  ![ListView](https://github.com/Tracun/gridview_menu/blob/main/images/listGrid.png?raw=true)
 
 ## Example
 
