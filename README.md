@@ -34,9 +34,7 @@ class _HomeWidgetState extends State<HomeWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return new WillPopScope(
-      onWillPop: onBackPressed,
-      child: Scaffold(
+    return Scaffold(
         appBar: AppBar(
           backgroundColor: Color.fromRGBO(70, 103, 48, 1),
           title: FittedBox(
@@ -60,7 +58,6 @@ class _HomeWidgetState extends State<HomeWidget> {
           items: widget.menuItem!,
           showList: _showList, 
         ),
-      ),
     );
   }
 }
@@ -71,7 +68,9 @@ class _HomeWidgetState extends State<HomeWidget> {
 
 ```dart
 
+import 'package:flutter/material.dart';
 import 'package:gridview_menu/gridview_menu.dart';
+import 'HomeWidget.dart';
 
 class MenuHomeScreen extends StatefulWidget {
   final Color color = Color.fromRGBO(70, 103, 48, 1);

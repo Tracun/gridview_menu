@@ -1,3 +1,8 @@
+## 1.0.2
+
+* Fix flutter static analysis
+* Add example files
+
 ## 1.0.1
 
 * Fix screenshot images
