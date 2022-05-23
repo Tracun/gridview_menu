@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:gridview_menu/gridview_menu.dart';
 
-import '../Screens/Screens.dart';
-import 'HomeWidget.dart';
+import '../screens/screens.dart';
+import 'home_widget.dart';
 
 class MenuHomeScreen extends StatefulWidget {
   final Color color = Color.fromRGBO(70, 103, 48, 1);
