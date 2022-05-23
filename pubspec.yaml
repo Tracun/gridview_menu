@@ -1,6 +1,6 @@
 name: gridview_menu
-description: GridView Menu.
-version: 1.0.2
+description: GridView Menu is a null-safe Flutter Menu Widget which allows you to create menu in list and grid format.
+version: 1.0.3
 homepage: https://github.com/tracun/gridview_menu
 
 environment:

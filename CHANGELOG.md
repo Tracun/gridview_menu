@@ -1,3 +1,7 @@
+## 1.0.3
+
+* Fix example files
+
 ## 1.0.2
 
 * Fix flutter static analysis
