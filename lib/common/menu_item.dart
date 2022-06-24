@@ -7,19 +7,23 @@ class MenuItem {
     required this.title,
     required this.child,
     required this.color,
+    required this.disabled,
   });
   final String title;
   final String subtitle;
   final IconData icon;
   final Widget child;
   final Color color;
+  final bool disabled;
 
-  void push(BuildContext context) => Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => _MobileView(item: this),
-        ),
-      );
+  void push(BuildContext context) => disabled
+      ? null
+      : Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => _MobileView(item: this),
+          ),
+        );
 }
 
 class _MobileView extends StatelessWidget {
